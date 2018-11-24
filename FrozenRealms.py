@@ -2,8 +2,8 @@ import time
 import discord
 import asyncio
 import discord.ext.commands as commands
+import os
 
-token = "NTE0MTUxMjkzNjMyMjQ5ODU4.DtSYnw.PGSgvEZwjKPo6aQ8pO8bacAl2XE"
 client = discord.Client()
 
 @client.event
@@ -45,4 +45,4 @@ async def on_message(message):
         #    except:
          #       pass
 
-client.run(token)
+client.run(os.getenv("token"))
