@@ -1,1 +1,6 @@
-discord.py
+https://github.com/Rapptz/discord.py/archive/rewrite.zip#egg=discord.py[voice]
+asyncio
+aiohttp
+websockets
+chardet
+yarl<1.2
